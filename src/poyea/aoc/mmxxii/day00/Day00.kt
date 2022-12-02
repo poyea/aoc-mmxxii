@@ -1,4 +1,4 @@
-package com.poyea.aoc.mmxxii.day00
+package poyea.aoc.mmxxii.day00
 
 fun part1(): String {
     return "Goodbye"

@@ -1,8 +1,8 @@
-package com.poyea.aoc.mmxxii.day00
+package poyea.aoc.mmxxii.day00
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import com.poyea.aoc.utils.readInput as readInput
+import poyea.aoc.utils.readInput as readInput
 
 class Day00Test {
     @Test fun part1Ans() {
