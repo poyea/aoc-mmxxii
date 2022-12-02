@@ -6,7 +6,7 @@ import com.poyea.aoc.utils.readInput as readInput
 
 class Day00Test {
     @Test fun part1Ans() {
-        assertEquals(part1(), 2022)
+        assertEquals(part1(), "Goodbye")
     }
 
     @Test fun part2Ans() {
