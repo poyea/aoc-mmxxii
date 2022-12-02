@@ -16,13 +16,16 @@ dependencies {
 }
 
 application {
-    mainClass.set("poyea.aoc.mmxxii.day01.Day01Kt")
+    mainClass.set("poyea.aoc.mmxxii.day${System.getenv("DAY") ?: "00"}.Day${System.getenv("DAY") ?: "00"}Kt")
 }
 
 tasks {
     sourceSets {
         main {
             java.srcDirs("src")
+        }
+        test {
+            java.srcDirs("tst")
         }
     }
 
